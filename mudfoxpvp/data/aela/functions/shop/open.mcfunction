@@ -14,3 +14,4 @@ execute as @e[tag=active] run tag @s remove shop
 # then I could match the minecart id with that without needing anything too complicated
 # would like a way to automatically kill the minecart (for optimization) but that is not strictly necessary
 # assuming there will never be more than 10 players so using online ids would work without too much repetition
+# maybe this could be done with a predicate?
