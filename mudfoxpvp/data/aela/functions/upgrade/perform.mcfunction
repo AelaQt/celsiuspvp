@@ -13,7 +13,7 @@ execute if score @s upgrade matches 205 run item replace entity @s weapon.mainha
 execute if score @s upgrade matches 206 run item replace entity @s weapon.mainhand with golden_helmet
 
 scoreboard players set @s message 4001
-function aela:message/object
+function aela:message/run
 
 scoreboard players set @s bal 0
 
