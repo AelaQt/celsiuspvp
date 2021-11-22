@@ -1,0 +1,3 @@
+execute if score @s message matches 2000 run tellraw @s [{"text":"Welcome to the server, ","color":"yellow", "extra":[{"selector":"@p"}]}]
+execute if score @s message matches 2001 run tellraw @s [{"text":"This upgrade costs ","color":"yellow"},{"color":"yellow","score":{"name":"@s","objective":"cost"}}]
+execute if score @s message matches 2002 run tellraw @s [{"text":"Welcome back, ","color":"yellow", "extra":[{"selector":"@p"}]}]
