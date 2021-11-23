@@ -25,3 +25,5 @@ item replace entity @s container.23 with black_stained_glass_pane{GUI:1}
 item replace entity @s container.24 with black_stained_glass_pane{GUI:1}
 item replace entity @s container.25 with black_stained_glass_pane{GUI:1}
 item replace entity @s container.26 with black_stained_glass_pane{GUI:1}
+
+data merge entity @s {CustomName:'{"color":"yellow","text":"Upgrade"}'}
