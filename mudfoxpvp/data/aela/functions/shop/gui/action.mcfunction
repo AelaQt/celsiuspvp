@@ -1,0 +1,1 @@
+execute unless entity @s[nbt={Items:[{Slot:13b}]}] run function aela:shop/gui/action/slot13
