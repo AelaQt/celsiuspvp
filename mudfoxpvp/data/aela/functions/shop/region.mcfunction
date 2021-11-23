@@ -1,0 +1,1 @@
+execute as @s[tag=!inRegion] run scoreboard players reset @s shopId

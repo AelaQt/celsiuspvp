@@ -1,0 +1,10 @@
+execute at @s if score @s shopId matches 1 if entity @a[scores={shopId=1},distance=0.1..] run function aela:shop/skip
+execute at @s if score @s shopId matches 2 if entity @a[scores={shopId=2},distance=0.1..] run function aela:shop/skip
+execute at @s if score @s shopId matches 3 if entity @a[scores={shopId=3},distance=0.1..] run function aela:shop/skip
+execute at @s if score @s shopId matches 4 if entity @a[scores={shopId=4},distance=0.1..] run function aela:shop/skip
+execute at @s if score @s shopId matches 5 if entity @a[scores={shopId=5},distance=0.1..] run function aela:shop/skip
+execute at @s if score @s shopId matches 6 if entity @a[scores={shopId=6},distance=0.1..] run function aela:shop/skip
+execute at @s if score @s shopId matches 7 if entity @a[scores={shopId=7},distance=0.1..] run function aela:shop/skip
+execute at @s if score @s shopId matches 8 if entity @a[scores={shopId=8},distance=0.1..] run function aela:shop/skip
+execute at @s if score @s shopId matches 9 if entity @a[scores={shopId=9},distance=0.1..] run function aela:shop/skip
+execute at @s if score @s shopId matches 10 if entity @a[scores={shopId=10},distance=0.1..] run function aela:shop/skip
