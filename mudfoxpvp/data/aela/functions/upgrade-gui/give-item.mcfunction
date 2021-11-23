@@ -11,3 +11,5 @@ execute if score @s upgrade matches 203 run give @s leather_helmet{Level:3,Unbre
 execute if score @s upgrade matches 204 run give @s leather_helmet{Level:4,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:4}]}
 execute if score @s upgrade matches 205 run give @s leather_helmet{Level:5,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:5}]}
 execute if score @s upgrade matches 206 run give @s golden_helmet{Unbreakable:1}
+
+execute at @s run playsound entity.player.levelup ambient @s
