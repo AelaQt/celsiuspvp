@@ -1,0 +1,10 @@
+execute at @s if score @s guiId matches 1 if entity @a[scores={guiId=1},distance=0.1..] run function aela:gui/entity/skip
+execute at @s if score @s guiId matches 2 if entity @a[scores={guiId=2},distance=0.1..] run function aela:gui/entity/skip
+execute at @s if score @s guiId matches 3 if entity @a[scores={guiId=3},distance=0.1..] run function aela:gui/entity/skip
+execute at @s if score @s guiId matches 4 if entity @a[scores={guiId=4},distance=0.1..] run function aela:gui/entity/skip
+execute at @s if score @s guiId matches 5 if entity @a[scores={guiId=5},distance=0.1..] run function aela:gui/entity/skip
+execute at @s if score @s guiId matches 6 if entity @a[scores={guiId=6},distance=0.1..] run function aela:gui/entity/skip
+execute at @s if score @s guiId matches 7 if entity @a[scores={guiId=7},distance=0.1..] run function aela:gui/entity/skip
+execute at @s if score @s guiId matches 8 if entity @a[scores={guiId=8},distance=0.1..] run function aela:gui/entity/skip
+execute at @s if score @s guiId matches 9 if entity @a[scores={guiId=9},distance=0.1..] run function aela:gui/entity/skip
+execute at @s if score @s guiId matches 10 if entity @a[scores={guiId=10},distance=0.1..] run function aela:gui/entity/skip

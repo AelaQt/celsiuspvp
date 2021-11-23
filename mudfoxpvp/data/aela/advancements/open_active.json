@@ -27,6 +27,6 @@
         }
     },
     "rewards": {
-        "function": "aela:shop/open-active"
+        "function": "aela:gui/open-active"
     }
 }

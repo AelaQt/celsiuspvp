@@ -1,1 +1,2 @@
 execute as @a run title @s actionbar [{"text":"Balance: ","color":"yellow"},{"color":"yellow","score":{"name":"@s","objective":"bal"}}]
+execute as @a unless score @s bal matches 1.. run scoreboard players set @s bal 0

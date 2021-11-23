@@ -1,1 +1,1 @@
-execute as @s[tag=!inShop] run scoreboard players reset @s shopId
+execute as @s[tag=!inShop] run scoreboard players reset @s guiId

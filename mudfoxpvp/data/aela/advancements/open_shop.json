@@ -21,12 +21,12 @@
             "conditions": {
                 "entity": {
                     "type": "minecraft:chest_minecart",
-                    "nbt": "{Tags:[\"shop\"]}"
+                    "nbt": "{Tags:[\"gui\"]}"
                 }
             }
         }
     },
     "rewards": {
-        "function": "aela:shop/open"
+        "function": "aela:gui/open"
     }
 }
