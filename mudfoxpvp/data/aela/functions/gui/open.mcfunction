@@ -4,8 +4,5 @@ function aela:gui/entity/skipid
 scoreboard players add guiId var 1
 execute if score guiId var matches 11.. run scoreboard players set guiId var 1
 function aela:gui/entity/killprev
-scoreboard players operation @e[tag=gui] guiId = @s guiId
-execute at @s run tp @e[tag=gui] ~ ~-4 ~
-tag @e[tag=gui] add active
-tag @e[tag=active] remove gui
+execute at @s run execute as @e[tag=gui,limit=1,sort=nearest] run function aela:gui/entity/activate
 function aela:gui/entity/summon_new
