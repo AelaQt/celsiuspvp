@@ -39,15 +39,6 @@ execute if score @s guiId matches 8 run execute as @p[scores={guiId=8}] run scor
 execute if score @s guiId matches 9 run execute as @p[scores={guiId=9}] run scoreboard players reset @s bal
 execute if score @s guiId matches 10 run execute as @p[scores={guiId=10}] run scoreboard players reset @s bal
 
-# close gui
+# remove gui item
 
-execute if score @s guiId matches 1 run execute as @p[scores={guiId=1}] run scoreboard players reset @s guiId
-execute if score @s guiId matches 2 run execute as @p[scores={guiId=2}] run scoreboard players reset @s guiId
-execute if score @s guiId matches 3 run execute as @p[scores={guiId=3}] run scoreboard players reset @s guiId
-execute if score @s guiId matches 4 run execute as @p[scores={guiId=4}] run scoreboard players reset @s guiId
-execute if score @s guiId matches 5 run execute as @p[scores={guiId=5}] run scoreboard players reset @s guiId
-execute if score @s guiId matches 6 run execute as @p[scores={guiId=6}] run scoreboard players reset @s guiId
-execute if score @s guiId matches 7 run execute as @p[scores={guiId=7}] run scoreboard players reset @s guiId
-execute if score @s guiId matches 8 run execute as @p[scores={guiId=8}] run scoreboard players reset @s guiId
-execute if score @s guiId matches 9 run execute as @p[scores={guiId=9}] run scoreboard players reset @s guiId
-execute if score @s guiId matches 10 run execute as @p[scores={guiId=10}] run scoreboard players reset @s guiId
+item replace entity @s container.13 with air

@@ -9,9 +9,9 @@ item replace entity @s container.7 with black_stained_glass_pane{GUI:1,display:{
 item replace entity @s container.8 with black_stained_glass_pane{GUI:1,display:{Name:'{"text":""}'}}
 item replace entity @s container.9 with black_stained_glass_pane{GUI:1,display:{Name:'{"text":""}'}}
 item replace entity @s container.10 with black_stained_glass_pane{GUI:1,display:{Name:'{"text":""}'}}
-item replace entity @s container.11 with black_stained_glass_pane{GUI:1,display:{Name:'{"text":""}'}}
+function aela:gui/page/details/upgrade/slot11
 item replace entity @s container.12 with black_stained_glass_pane{GUI:1,display:{Name:'{"text":""}'}}
-
+function aela:gui/page/details/upgrade/slot13
 item replace entity @s container.14 with black_stained_glass_pane{GUI:1,display:{Name:'{"text":""}'}}
 item replace entity @s container.15 with black_stained_glass_pane{GUI:1,display:{Name:'{"text":""}'}}
 item replace entity @s container.16 with black_stained_glass_pane{GUI:1,display:{Name:'{"text":""}'}}
