@@ -18,4 +18,16 @@ scoreboard objectives add cheat dummy
 scoreboard objectives add x dummy
 scoreboard objectives add y dummy
 scoreboard objectives add z dummy
+scoreboard objectives add inventory dummy
+scoreboard objectives add pX dummy
+scoreboard objectives add pY dummy
+scoreboard objectives add pZ dummy
+scoreboard objectives add rotH dummy
+scoreboard objectives add rotV dummy
+scoreboard objectives add protH dummy
+scoreboard objectives add protV dummy
+
+scoreboard players set -1 var -1
+
+
 function aela:spawn/load

@@ -1,0 +1,1 @@
+# execute as @a if score @s inventory matches 1.. unless score @s x = @s pX unless score @s y = @s pY unless score @s z = @s pZ unless score @s rotH = @s protH unless score @s rotV = @s protV run function aela:inventory/restore
