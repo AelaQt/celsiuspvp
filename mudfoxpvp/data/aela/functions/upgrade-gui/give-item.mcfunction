@@ -19,4 +19,18 @@ execute if score @s upgrade matches 304 run give @s leather_chestplate{Level:4,U
 execute if score @s upgrade matches 305 run give @s leather_chestplate{Level:5,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:5}]}
 execute if score @s upgrade matches 306 run give @s golden_chestplate{Unbreakable:1}
 
+execute if score @s upgrade matches 401 run give @s leather_leggings{Level:1,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:1}]}
+execute if score @s upgrade matches 402 run give @s leather_leggings{Level:2,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:2}]}
+execute if score @s upgrade matches 403 run give @s leather_leggings{Level:3,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:3}]}
+execute if score @s upgrade matches 404 run give @s leather_leggings{Level:4,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:4}]}
+execute if score @s upgrade matches 405 run give @s leather_leggings{Level:5,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:5}]}
+execute if score @s upgrade matches 406 run give @s golden_leggings{Unbreakable:1}
+
+execute if score @s upgrade matches 501 run give @s leather_boots{Level:1,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:1}]}
+execute if score @s upgrade matches 502 run give @s leather_boots{Level:2,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:2}]}
+execute if score @s upgrade matches 503 run give @s leather_boots{Level:3,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:3}]}
+execute if score @s upgrade matches 504 run give @s leather_boots{Level:4,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:4}]}
+execute if score @s upgrade matches 505 run give @s leather_boots{Level:5,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:5}]}
+execute if score @s upgrade matches 506 run give @s golden_boots{Unbreakable:1}
+
 execute at @s run playsound entity.player.levelup ambient @s

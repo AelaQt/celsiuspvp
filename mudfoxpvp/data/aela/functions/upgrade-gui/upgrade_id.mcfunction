@@ -22,5 +22,21 @@ execute if score @s item matches 8 if score @s level matches 3 run scoreboard pl
 execute if score @s item matches 8 if score @s level matches 4 run scoreboard players set @s upgrade 305
 execute if score @s item matches 8 if score @s level matches 5 run scoreboard players set @s upgrade 306
 
+# Leather leggings
+execute if score @s item matches 9 if score @s level matches 0 run scoreboard players set @s upgrade 401
+execute if score @s item matches 9 if score @s level matches 1 run scoreboard players set @s upgrade 402
+execute if score @s item matches 9 if score @s level matches 2 run scoreboard players set @s upgrade 403
+execute if score @s item matches 9 if score @s level matches 3 run scoreboard players set @s upgrade 404
+execute if score @s item matches 9 if score @s level matches 4 run scoreboard players set @s upgrade 405
+execute if score @s item matches 9 if score @s level matches 5 run scoreboard players set @s upgrade 406
+
+# Leather boots
+execute if score @s item matches 10 if score @s level matches 0 run scoreboard players set @s upgrade 501
+execute if score @s item matches 10 if score @s level matches 1 run scoreboard players set @s upgrade 502
+execute if score @s item matches 10 if score @s level matches 2 run scoreboard players set @s upgrade 503
+execute if score @s item matches 10 if score @s level matches 3 run scoreboard players set @s upgrade 504
+execute if score @s item matches 10 if score @s level matches 4 run scoreboard players set @s upgrade 505
+execute if score @s item matches 10 if score @s level matches 5 run scoreboard players set @s upgrade 506
+
 execute if score @s upgrade matches -1 run tag @s add noUpgrade
 execute unless score @s upgrade matches -1 run function aela:upgrade-gui/upgrade_cost
