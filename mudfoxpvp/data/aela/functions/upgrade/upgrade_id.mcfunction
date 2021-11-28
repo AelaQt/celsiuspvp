@@ -15,3 +15,11 @@ execute if score @s item matches 7 if score @s level matches 2 run scoreboard pl
 execute if score @s item matches 7 if score @s level matches 3 run scoreboard players set @s upgrade 204
 execute if score @s item matches 7 if score @s level matches 4 run scoreboard players set @s upgrade 205
 execute if score @s item matches 7 if score @s level matches 5 run scoreboard players set @s upgrade 206
+
+# Leather helmet
+execute if score @s item matches 8 if score @s level matches 0 run scoreboard players set @s upgrade 301
+execute if score @s item matches 8 if score @s level matches 1 run scoreboard players set @s upgrade 302
+execute if score @s item matches 8 if score @s level matches 2 run scoreboard players set @s upgrade 303
+execute if score @s item matches 8 if score @s level matches 3 run scoreboard players set @s upgrade 304
+execute if score @s item matches 8 if score @s level matches 4 run scoreboard players set @s upgrade 305
+execute if score @s item matches 8 if score @s level matches 5 run scoreboard players set @s upgrade 306

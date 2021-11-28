@@ -12,6 +12,13 @@ execute if score @s upgrade matches 204 run item replace entity @s weapon.mainha
 execute if score @s upgrade matches 205 run item replace entity @s weapon.mainhand with leather_helmet{Level:5,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:5}]}
 execute if score @s upgrade matches 206 run item replace entity @s weapon.mainhand with golden_helmet{Unbreakable:1}
 
+execute if score @s upgrade matches 301 run item replace entity @s weapon.mainhand with leather_chestplate{Level:1,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:1}]}
+execute if score @s upgrade matches 302 run item replace entity @s weapon.mainhand with leather_chestplate{Level:2,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:2}]}
+execute if score @s upgrade matches 303 run item replace entity @s weapon.mainhand with leather_chestplate{Level:3,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:3}]}
+execute if score @s upgrade matches 304 run item replace entity @s weapon.mainhand with leather_chestplate{Level:4,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:4}]}
+execute if score @s upgrade matches 305 run item replace entity @s weapon.mainhand with leather_chestplate{Level:5,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:5}]}
+execute if score @s upgrade matches 306 run item replace entity @s weapon.mainhand with golden_chestplate{Unbreakable:1}
+
 scoreboard players set @s message 4001
 function aela:message/run
 
