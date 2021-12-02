@@ -8,3 +8,5 @@ function aela:gui/entity/killprev
 execute at @s run execute as @e[tag=gui,limit=1,sort=nearest] run function aela:gui/entity/activate
 function aela:gui/entity/summon_new
 tag @s remove guiId
+scoreboard players set @s delay 10
+tag @s add guiopeninv

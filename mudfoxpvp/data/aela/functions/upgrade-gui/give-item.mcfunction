@@ -34,3 +34,4 @@ execute if score @s upgrade matches 505 run give @s leather_boots{Level:5,Unbrea
 execute if score @s upgrade matches 506 run give @s golden_boots{Unbreakable:1}
 
 execute at @s run playsound entity.player.levelup ambient @s
+function aela:inventory/open_gui

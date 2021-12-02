@@ -26,6 +26,7 @@ scoreboard objectives add rotH dummy
 scoreboard objectives add rotV dummy
 scoreboard objectives add protH dummy
 scoreboard objectives add protV dummy
+scoreboard objectives add delay dummy
 
 scoreboard players set -1 var -1
 

@@ -14,7 +14,7 @@ execute if score @s upgrade matches 204 run scoreboard players set @s cost 8
 execute if score @s upgrade matches 205 run scoreboard players set @s cost 16
 execute if score @s upgrade matches 206 run scoreboard players set @s cost 32
 
-# Leather helmet
+# Leather chestplate
 execute if score @s upgrade matches 301 run scoreboard players set @s cost 1
 execute if score @s upgrade matches 302 run scoreboard players set @s cost 2
 execute if score @s upgrade matches 303 run scoreboard players set @s cost 4
@@ -37,6 +37,8 @@ execute if score @s upgrade matches 503 run scoreboard players set @s cost 4
 execute if score @s upgrade matches 504 run scoreboard players set @s cost 8
 execute if score @s upgrade matches 505 run scoreboard players set @s cost 16
 execute if score @s upgrade matches 506 run scoreboard players set @s cost 32
+
+
 
 execute if score @s cost matches -1 run tag @s add noUpgrade
 execute unless score @s cost matches -1 run function aela:upgrade-gui/balcheck

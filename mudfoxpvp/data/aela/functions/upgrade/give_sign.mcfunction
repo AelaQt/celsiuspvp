@@ -1,1 +1,0 @@
-give @s minecraft:oak_sign{BlockEntityTag:{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"tag @s add upgrade"}}',Text2:'{"text":"Upgrade item","color":"green"}',Text3:'{"text":"[Right click]","color":"green"}'},display:{Name:'{"text":"Upgrade"}'}}
