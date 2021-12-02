@@ -41,4 +41,4 @@ execute if score @s guiId matches 10 run execute as @p[scores={guiId=10}] run sc
 
 # remove gui item
 
-item replace entity @s container.13 with air
+item replace entity @s container.12 with air
