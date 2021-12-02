@@ -13,8 +13,8 @@ item replace entity @s container.16 with fishing_rod{GUI:1,display:{Name:'{"text
 item replace entity @s container.17 with arrow{GUI:1,display:{Name:'{"text":"TBA","color":"yellow","italic":false}'}}
 
 item replace entity @s container.21 with ender_pearl{GUI:1,display:{Name:'{"text":"TBA","color":"yellow","italic":false}'}}
-item replace entity @s container.22 with carrot{GUI:1,display:{Name:'{"text":"TBA","color":"yellow","italic":false}'}}
-item replace entity @s container.23 with bread{GUI:1,display:{Name:'{"text":"TBA","color":"yellow","italic":false}'}}
+item replace entity @s container.22 with carrot{GUI:1,display:{Name:'{"text":"Item cost: 2","color":"yellow","italic":false}'}}
+item replace entity @s container.23 with bread{GUI:1,display:{Name:'{"text":"Item cost: 3","color":"yellow","italic":false}'}}
 item replace entity @s container.24 with cooked_beef{GUI:1,display:{Name:'{"text":"TBA","color":"yellow","italic":false}'}}
 item replace entity @s container.25 with golden_carrot{GUI:1,display:{Name:'{"text":"TBA","color":"yellow","italic":false}'}}
 item replace entity @s container.26 with golden_apple{GUI:1,display:{Name:'{"text":"TBA","color":"yellow","italic":false}'}}
