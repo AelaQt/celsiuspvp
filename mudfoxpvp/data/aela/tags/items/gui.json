@@ -8,6 +8,24 @@
         "minecraft:yellow_stained_glass_pane",
         "minecraft:white_stained_glass_pane",
         "minecraft:enchanted_book",
-        "minecraft:clock"
+        "minecraft:clock",
+        "minecraft:wooden_sword",
+        "minecraft:wooden_axe",
+        "minecraft:shield",
+        "minecraft:spyglass",
+        "minecraft:crossbow",
+        "minecraft:bow",
+        "minecraft:leather_helmet",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_leggings",
+        "minecraft:leather_boots",
+        "minecraft:fishing_rod",
+        "minecraft:arrow",
+        "minecraft:ender_pearl",
+        "minecraft:carrot",
+        "minecraft:bread",
+        "minecraft:cooked_beef",
+        "minecraft:golden_carrot",
+        "minecraft:golden_apple"
     ]
 }

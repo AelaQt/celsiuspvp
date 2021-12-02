@@ -1,0 +1,1 @@
+item replace entity @s container.11 with red_stained_glass_pane{GUI:1,display:{Name:'{"text":"Go back","color":"red","italic":false}'}}
