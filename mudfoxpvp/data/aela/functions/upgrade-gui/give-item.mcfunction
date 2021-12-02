@@ -3,7 +3,7 @@ execute if score @s upgrade matches 102 run give @s wooden_sword{Level:2,Unbreak
 execute if score @s upgrade matches 103 run give @s wooden_sword{Level:3,Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:3}]}
 execute if score @s upgrade matches 104 run give @s wooden_sword{Level:4,Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:4}]}
 execute if score @s upgrade matches 105 run give @s wooden_sword{Level:5,Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:5}]}
-execute if score @s upgrade matches 106 run give @s stone_sword{Unbreakable:1}
+execute if score @s upgrade matches 106 run give @s golden_sword{Unbreakable:1}
 
 execute if score @s upgrade matches 201 run give @s leather_helmet{Level:1,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:1}]}
 execute if score @s upgrade matches 202 run give @s leather_helmet{Level:2,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:2}]}
@@ -32,6 +32,13 @@ execute if score @s upgrade matches 503 run give @s leather_boots{Level:3,Unbrea
 execute if score @s upgrade matches 504 run give @s leather_boots{Level:4,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:4}]}
 execute if score @s upgrade matches 505 run give @s leather_boots{Level:5,Unbreakable:1,Enchantments:[{id:"minecraft:protection",lvl:5}]}
 execute if score @s upgrade matches 506 run give @s golden_boots{Unbreakable:1}
+
+execute if score @s upgrade matches 601 run give @s wooden_axe{Level:1,Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:1}]}
+execute if score @s upgrade matches 602 run give @s wooden_axe{Level:2,Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:2}]}
+execute if score @s upgrade matches 603 run give @s wooden_axe{Level:3,Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:3}]}
+execute if score @s upgrade matches 604 run give @s wooden_axe{Level:4,Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:4}]}
+execute if score @s upgrade matches 605 run give @s wooden_axe{Level:5,Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:5}]}
+execute if score @s upgrade matches 606 run give @s golden_axe{Unbreakable:1}
 
 execute at @s run playsound entity.player.levelup ambient @s
 function aela:inventory/open_gui

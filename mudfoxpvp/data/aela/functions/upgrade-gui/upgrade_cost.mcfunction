@@ -38,6 +38,14 @@ execute if score @s upgrade matches 504 run scoreboard players set @s cost 8
 execute if score @s upgrade matches 505 run scoreboard players set @s cost 16
 execute if score @s upgrade matches 506 run scoreboard players set @s cost 32
 
+# Wooden axe
+execute if score @s upgrade matches 601 run scoreboard players set @s cost 1
+execute if score @s upgrade matches 602 run scoreboard players set @s cost 2
+execute if score @s upgrade matches 603 run scoreboard players set @s cost 4
+execute if score @s upgrade matches 604 run scoreboard players set @s cost 8
+execute if score @s upgrade matches 605 run scoreboard players set @s cost 16
+execute if score @s upgrade matches 606 run scoreboard players set @s cost 32
+
 
 
 execute if score @s cost matches -1 run tag @s add noUpgrade

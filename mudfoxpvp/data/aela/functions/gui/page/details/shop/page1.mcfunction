@@ -1,5 +1,5 @@
 item replace entity @s container.3 with wooden_sword{GUI:1,display:{Name:'{"text":"Item cost: 0","color":"yellow","italic":false}'},AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:0}]}
-item replace entity @s container.4 with wooden_axe{GUI:1,display:{Name:'{"text":"TBA","color":"yellow","italic":false}'},AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:0}]}
+item replace entity @s container.4 with wooden_axe{GUI:1,display:{Name:'{"text":"Item cost: 10","color":"yellow","italic":false}'},AttributeModifiers:[{AttributeName:"minecraft:generic.attack_damage",Amount:0}]}
 item replace entity @s container.5 with shield{GUI:1,display:{Name:'{"text":"TBA","color":"yellow","italic":false}'}}
 item replace entity @s container.6 with spyglass{GUI:1,display:{Name:'{"text":"TBA","color":"yellow","italic":false}'}}
 item replace entity @s container.7 with crossbow{GUI:1,display:{Name:'{"text":"TBA","color":"yellow","italic":false}'}}

@@ -13,6 +13,8 @@ execute if score @s item matches -1 if entity @s[nbt={Items:[{Slot:13b,id:"minec
 
 execute if score @s item matches -1 if entity @s[nbt={Items:[{Slot:13b,id:"minecraft:leather_boots"}]}] run scoreboard players set @s item 25
 
+execute if score @s item matches -1 if entity @s[nbt={Items:[{Slot:13b,id:"minecraft:wooden_axe"}]}] run scoreboard players set @s item 31
+
 execute if score @s item matches -1 unless entity @s[nbt={Items:[{Slot:13b}]}] run scoreboard players set @s item -2
 
 execute if score @s item matches -1 run tag @s add noUpgrade
