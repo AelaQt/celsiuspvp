@@ -1,0 +1,10 @@
+Move folder "mudfoxpvp" to world/datapacks/
+
+If installing on client:
+move resources.zip to world/
+
+If installing on server:
+put this to server.properties
+
+resource-pack=https://aela.fi/resources.zip
+resource-pack-sha1=2635542bb292762b0180e16e78fe35444e6a0fa3

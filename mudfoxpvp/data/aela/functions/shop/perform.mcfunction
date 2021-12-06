@@ -55,4 +55,4 @@ execute if score @s guiId matches 10 run execute as @p[scores={guiId=10}] run sc
 
 # return to shop page
 
-function aela:gui/page/open/shop
+# function aela:gui/page/open/shop
