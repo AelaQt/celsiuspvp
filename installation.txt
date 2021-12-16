@@ -1,5 +1,7 @@
 Move folder "mudfoxpvp" to world/datapacks/
 
+Or just take the zip file, it should work unless I've forgotten to update it
+
 If installing on client:
 move resources.zip to world/
 
