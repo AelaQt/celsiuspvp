@@ -1,10 +1,3 @@
-execute if score @s guiId matches 1 run kill @e[tag=active,scores={guiId=1}]
-execute if score @s guiId matches 2 run kill @e[tag=active,scores={guiId=2}]
-execute if score @s guiId matches 3 run kill @e[tag=active,scores={guiId=3}]
-execute if score @s guiId matches 4 run kill @e[tag=active,scores={guiId=4}]
-execute if score @s guiId matches 5 run kill @e[tag=active,scores={guiId=5}]
-execute if score @s guiId matches 6 run kill @e[tag=active,scores={guiId=6}]
-execute if score @s guiId matches 7 run kill @e[tag=active,scores={guiId=7}]
-execute if score @s guiId matches 8 run kill @e[tag=active,scores={guiId=8}]
-execute if score @s guiId matches 9 run kill @e[tag=active,scores={guiId=9}]
-execute if score @s guiId matches 10 run kill @e[tag=active,scores={guiId=10}]
+function aela:gui/entity/loop2
+
+kill @e[tag=active,tag=kill]
