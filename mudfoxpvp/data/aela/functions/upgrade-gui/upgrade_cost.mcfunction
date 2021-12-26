@@ -154,35 +154,35 @@ execute if score @s upgrade matches 528 run scoreboard players set @s cost 32768
 execute if score @s upgrade matches 529 run scoreboard players set @s cost 65536
 
 # axes
-execute if score @s upgrade matches 601 run scoreboard players set @s cost 1
-execute if score @s upgrade matches 602 run scoreboard players set @s cost 2
-execute if score @s upgrade matches 603 run scoreboard players set @s cost 4
-execute if score @s upgrade matches 604 run scoreboard players set @s cost 8
-execute if score @s upgrade matches 605 run scoreboard players set @s cost 16
-execute if score @s upgrade matches 606 run scoreboard players set @s cost 4
-execute if score @s upgrade matches 607 run scoreboard players set @s cost 8
-execute if score @s upgrade matches 608 run scoreboard players set @s cost 16
-execute if score @s upgrade matches 609 run scoreboard players set @s cost 32
-execute if score @s upgrade matches 610 run scoreboard players set @s cost 64
-execute if score @s upgrade matches 611 run scoreboard players set @s cost 128
-execute if score @s upgrade matches 612 run scoreboard players set @s cost 32
-execute if score @s upgrade matches 613 run scoreboard players set @s cost 64
-execute if score @s upgrade matches 614 run scoreboard players set @s cost 128
-execute if score @s upgrade matches 615 run scoreboard players set @s cost 256
-execute if score @s upgrade matches 616 run scoreboard players set @s cost 512
-execute if score @s upgrade matches 617 run scoreboard players set @s cost 1024
-execute if score @s upgrade matches 618 run scoreboard players set @s cost 256
-execute if score @s upgrade matches 619 run scoreboard players set @s cost 512
-execute if score @s upgrade matches 620 run scoreboard players set @s cost 1024
-execute if score @s upgrade matches 621 run scoreboard players set @s cost 2048
-execute if score @s upgrade matches 622 run scoreboard players set @s cost 4096
-execute if score @s upgrade matches 623 run scoreboard players set @s cost 8192
-execute if score @s upgrade matches 624 run scoreboard players set @s cost 2048
-execute if score @s upgrade matches 625 run scoreboard players set @s cost 4096
-execute if score @s upgrade matches 626 run scoreboard players set @s cost 8192
-execute if score @s upgrade matches 627 run scoreboard players set @s cost 16384
-execute if score @s upgrade matches 628 run scoreboard players set @s cost 32768
-execute if score @s upgrade matches 629 run scoreboard players set @s cost 65536
+execute if score @s upgrade matches 601 run scoreboard players set @s cost 2
+execute if score @s upgrade matches 602 run scoreboard players set @s cost 4
+execute if score @s upgrade matches 603 run scoreboard players set @s cost 8
+execute if score @s upgrade matches 604 run scoreboard players set @s cost 16
+execute if score @s upgrade matches 605 run scoreboard players set @s cost 32
+execute if score @s upgrade matches 606 run scoreboard players set @s cost 8
+execute if score @s upgrade matches 607 run scoreboard players set @s cost 16
+execute if score @s upgrade matches 608 run scoreboard players set @s cost 32
+execute if score @s upgrade matches 609 run scoreboard players set @s cost 64
+execute if score @s upgrade matches 610 run scoreboard players set @s cost 128
+execute if score @s upgrade matches 611 run scoreboard players set @s cost 256
+execute if score @s upgrade matches 612 run scoreboard players set @s cost 64
+execute if score @s upgrade matches 613 run scoreboard players set @s cost 128
+execute if score @s upgrade matches 614 run scoreboard players set @s cost 256
+execute if score @s upgrade matches 615 run scoreboard players set @s cost 512
+execute if score @s upgrade matches 616 run scoreboard players set @s cost 1024
+execute if score @s upgrade matches 617 run scoreboard players set @s cost 2048
+execute if score @s upgrade matches 618 run scoreboard players set @s cost 512
+execute if score @s upgrade matches 619 run scoreboard players set @s cost 1024
+execute if score @s upgrade matches 620 run scoreboard players set @s cost 2048
+execute if score @s upgrade matches 621 run scoreboard players set @s cost 4096
+execute if score @s upgrade matches 622 run scoreboard players set @s cost 8192
+execute if score @s upgrade matches 623 run scoreboard players set @s cost 16384
+execute if score @s upgrade matches 624 run scoreboard players set @s cost 4096
+execute if score @s upgrade matches 625 run scoreboard players set @s cost 8192
+execute if score @s upgrade matches 626 run scoreboard players set @s cost 16384
+execute if score @s upgrade matches 627 run scoreboard players set @s cost 32768
+execute if score @s upgrade matches 628 run scoreboard players set @s cost 65536
+execute if score @s upgrade matches 629 run scoreboard players set @s cost 131072
 
 
 # crossbow
