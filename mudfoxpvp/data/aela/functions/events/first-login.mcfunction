@@ -5,5 +5,5 @@ scoreboard players set @s leave 1
 scoreboard players set @s message 2000
 function aela:message/run
 
-give @s wooden_sword{Unbreakable:1}
+give @s wooden_sword{Unbreakable:1,Free:1}
 scoreboard players set @s bal 0
