@@ -28,7 +28,7 @@ scoreboard objectives add protV dummy
 scoreboard objectives add delay dummy
 
 scoreboard players set -1 var -1
-
+execute unless score set_prefix var matches 1 run scoreboard players set set_prefix var 0
 
 function aela:spawn/load
 function aela:ranks/load
