@@ -31,3 +31,4 @@ scoreboard players set -1 var -1
 
 
 function aela:spawn/load
+function aela:ranks/load
