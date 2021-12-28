@@ -28,3 +28,4 @@ execute if score @s cost matches 16384 run item replace entity @s container.4 wi
 execute if score @s cost matches 32768 run item replace entity @s container.4 with yellow_stained_glass_pane{GUI:1,display:{Name:'{"text":"Upgrade cost: 32768","color":"yellow","italic":false}'}}
 execute if score @s cost matches 65536 run item replace entity @s container.4 with yellow_stained_glass_pane{GUI:1,display:{Name:'{"text":"Upgrade cost: 65536","color":"yellow","italic":false}'}}
 execute if score @s cost matches 131072 run item replace entity @s container.4 with yellow_stained_glass_pane{GUI:1,display:{Name:'{"text":"Upgrade cost: 131072","color":"yellow","italic":false}'}}
+execute if score @s cost matches 262144 run item replace entity @s container.4 with yellow_stained_glass_pane{GUI:1,display:{Name:'{"text":"Upgrade cost: 262144","color":"yellow","italic":false}'}}

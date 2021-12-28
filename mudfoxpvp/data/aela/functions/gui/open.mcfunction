@@ -10,5 +10,5 @@ tag @s remove guiId
 
 function aela:gui/entity/summon_new
 
-scoreboard players set @s delay 10
+scoreboard players set @s delay 1
 tag @s add guiopeninv
