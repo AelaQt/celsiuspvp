@@ -1,4 +1,4 @@
-function aela:inventory/
+function aela:inventory/entity/loop
 
 execute as @e[tag=invloop1,tag=!true] run function aela:inventory/clear_backup
 execute as @e[tag=invloop2,tag=!true] run function aela:inventory/clear_backup
