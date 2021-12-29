@@ -36,8 +36,3 @@ item replace entity @s hotbar.7 from entity @e[limit=1,tag=matched,tag=invloop2]
 item replace entity @s hotbar.8 from entity @e[limit=1,tag=matched,tag=invloop2] container.8
 
 tag @s remove restore
-
-execute as @e[tag=matched,type=!player] run function aela:inventory/clear_backup
-
-kill @e[tag=matched,type=!player]
-scoreboard players reset @s inventory

@@ -197,4 +197,6 @@ execute if score @s upgrade matches 806 run give @s bow{Level:6,Unbreakable:1,En
 execute if score @s upgrade matches 807 run give @s bow{Level:7,Unbreakable:1,Enchantments:[{id:"minecraft:power",lvl:5},{id:"minecraft:punch",lvl:2}]}
 
 execute at @s run playsound entity.player.levelup ambient @s
-function aela:inventory/open_gui
+
+scoreboard players set inventory_store var 0
+function aela:inventory/store_loop

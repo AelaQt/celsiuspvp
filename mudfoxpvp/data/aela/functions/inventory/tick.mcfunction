@@ -1,1 +1,0 @@
-execute as @a[tag=move,scores={inventory=1..}] run function aela:inventory/when_move
