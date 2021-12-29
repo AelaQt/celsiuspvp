@@ -189,11 +189,6 @@ execute if score @s item matches 42 if score @s level matches 0 run scoreboard p
 execute if score @s item matches 42 if score @s level matches 1 run scoreboard players set @s upgrade 702
 execute if score @s item matches 42 if score @s level matches 2 run scoreboard players set @s upgrade 703
 execute if score @s item matches 42 if score @s level matches 3 run scoreboard players set @s upgrade 704
-execute if score @s item matches 42 if score @s level matches 4 run scoreboard players set @s upgrade 705
-execute if score @s item matches 42 if score @s level matches 5 run scoreboard players set @s upgrade 706
-execute if score @s item matches 42 if score @s level matches 6 run scoreboard players set @s upgrade 707
-execute if score @s item matches 42 if score @s level matches 7 run scoreboard players set @s upgrade 708
-
 
 # bow
 execute if score @s item matches 43 if score @s level matches 0 run scoreboard players set @s upgrade 801

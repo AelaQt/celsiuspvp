@@ -178,14 +178,10 @@ execute if score @s upgrade matches 627 run give @s netherite_axe{Level:3,Unbrea
 execute if score @s upgrade matches 628 run give @s netherite_axe{Level:4,Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:4}]}
 execute if score @s upgrade matches 629 run give @s netherite_axe{Level:5,Unbreakable:1,Enchantments:[{id:"minecraft:sharpness",lvl:5}]}
 
-execute if score @s upgrade matches 701 run give @s crossbow{Level:1,Unbreakable:1,Enchantments:[{id:"minecraft:piercing",lvl:1}]}
-execute if score @s upgrade matches 702 run give @s crossbow{Level:2,Unbreakable:1,Enchantments:[{id:"minecraft:piercing",lvl:1},{id:"minecraft:quick_charge",lvl:1}]}
-execute if score @s upgrade matches 703 run give @s crossbow{Level:3,Unbreakable:1,Enchantments:[{id:"minecraft:piercing",lvl:2},{id:"minecraft:quick_charge",lvl:1}]}
-execute if score @s upgrade matches 704 run give @s crossbow{Level:4,Unbreakable:1,Enchantments:[{id:"minecraft:piercing",lvl:2},{id:"minecraft:quick_charge",lvl:2}]}
-execute if score @s upgrade matches 705 run give @s crossbow{Level:5,Unbreakable:1,Enchantments:[{id:"minecraft:piercing",lvl:3},{id:"minecraft:quick_charge",lvl:2}]}
-execute if score @s upgrade matches 706 run give @s crossbow{Level:6,Unbreakable:1,Enchantments:[{id:"minecraft:piercing",lvl:3},{id:"minecraft:quick_charge",lvl:3}]}
-execute if score @s upgrade matches 707 run give @s crossbow{Level:7,Unbreakable:1,Enchantments:[{id:"minecraft:piercing",lvl:4},{id:"minecraft:quick_charge",lvl:3}]}
-execute if score @s upgrade matches 708 run give @s crossbow{Level:8,Unbreakable:1,Enchantments:[{id:"minecraft:piercing",lvl:4},{id:"minecraft:quick_charge",lvl:3},{id:"minecraft:multishot",lvl:1}]}
+execute if score @s upgrade matches 701 run give @s crossbow{Level:1,Unbreakable:1,Enchantments:[{id:"minecraft:quick_charge",lvl:1}]}
+execute if score @s upgrade matches 702 run give @s crossbow{Level:2,Unbreakable:1,Enchantments:[{id:"minecraft:quick_charge",lvl:2}]}
+execute if score @s upgrade matches 703 run give @s crossbow{Level:3,Unbreakable:1,Enchantments:[{id:"minecraft:quick_charge",lvl:3}]}
+execute if score @s upgrade matches 704 run give @s crossbow{Level:4,Unbreakable:1,Enchantments:[{id:"minecraft:quick_charge",lvl:3},{id:"minecraft:multishot",lvl:1}]}
 
 
 execute if score @s upgrade matches 801 run give @s bow{Level:1,Unbreakable:1,Enchantments:[{id:"minecraft:power",lvl:1}]}

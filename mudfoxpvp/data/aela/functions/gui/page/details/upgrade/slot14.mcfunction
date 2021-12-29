@@ -181,17 +181,10 @@ execute if score @s upgrade matches 627 run item replace entity @s container.14 
 execute if score @s upgrade matches 628 run item replace entity @s container.14 with netherite_axe{GUI:1,Enchantments:[{id:"minecraft:sharpness",lvl:4}]}
 execute if score @s upgrade matches 629 run item replace entity @s container.14 with netherite_axe{GUI:1,Enchantments:[{id:"minecraft:sharpness",lvl:5}]}
 
-execute if score @s upgrade matches 701 run item replace entity @s container.14 with crossbow{GUI:1,Enchantments:[{id:"minecraft:piercing",lvl:1}]}
-execute if score @s upgrade matches 702 run item replace entity @s container.14 with crossbow{GUI:1,Enchantments:[{id:"minecraft:piercing",lvl:1},{id:"minecraft:quick_charge",lvl:1}]}
-execute if score @s upgrade matches 703 run item replace entity @s container.14 with crossbow{GUI:1,Enchantments:[{id:"minecraft:piercing",lvl:2},{id:"minecraft:quick_charge",lvl:1}]}
-execute if score @s upgrade matches 704 run item replace entity @s container.14 with crossbow{GUI:1,Enchantments:[{id:"minecraft:piercing",lvl:2},{id:"minecraft:quick_charge",lvl:2}]}
-execute if score @s upgrade matches 705 run item replace entity @s container.14 with crossbow{GUI:1,Enchantments:[{id:"minecraft:piercing",lvl:3},{id:"minecraft:quick_charge",lvl:2}]}
-execute if score @s upgrade matches 706 run item replace entity @s container.14 with crossbow{GUI:1,Enchantments:[{id:"minecraft:piercing",lvl:3},{id:"minecraft:quick_charge",lvl:3}]}
-execute if score @s upgrade matches 707 run item replace entity @s container.14 with crossbow{GUI:1,Enchantments:[{id:"minecraft:piercing",lvl:4},{id:"minecraft:quick_charge",lvl:3}]}
-execute if score @s upgrade matches 708 run item replace entity @s container.14 with crossbow{GUI:1,Enchantments:[{id:"minecraft:piercing",lvl:4},{id:"minecraft:quick_charge",lvl:3},{id:"minecraft:multishot",lvl:1}]}
-
-
-# Enchantments:[{id:"minecraft:piercing",lvl:4},{id:"minecraft:quick_charge",lvl:3},{id:"minecraft:multishot",lvl:1}]
+execute if score @s upgrade matches 701 run item replace entity @s container.14 with crossbow{GUI:1,Enchantments:[{id:"minecraft:quick_charge",lvl:1}]}
+execute if score @s upgrade matches 702 run item replace entity @s container.14 with crossbow{GUI:1,Enchantments:[{id:"minecraft:quick_charge",lvl:2}]}
+execute if score @s upgrade matches 703 run item replace entity @s container.14 with crossbow{GUI:1,Enchantments:[{id:"minecraft:quick_charge",lvl:3}]}
+execute if score @s upgrade matches 704 run item replace entity @s container.14 with crossbow{GUI:1,Enchantments:[{id:"minecraft:quick_charge",lvl:3},{id:"minecraft:multishot",lvl:1}]}
 
 execute if score @s upgrade matches 801 run item replace entity @s container.14 with bow{GUI:1,Enchantments:[{id:"minecraft:power",lvl:1}]}
 execute if score @s upgrade matches 802 run item replace entity @s container.14 with bow{GUI:1,Enchantments:[{id:"minecraft:power",lvl:2}]}
