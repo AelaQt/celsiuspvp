@@ -6,3 +6,5 @@ function aela:gui/tick
 function aela:ping/tick
 function aela:inventory/tick
 function aela:ranks/tick
+
+bossbar set minecraft:0 players @a
