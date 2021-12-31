@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Age:0s}] at @s run execute as @p[distance=..2] run function aela:itemdetect/drop
