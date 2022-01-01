@@ -35,4 +35,10 @@ item replace entity @s hotbar.6 from entity @e[limit=1,tag=matched,tag=invloop2]
 item replace entity @s hotbar.7 from entity @e[limit=1,tag=matched,tag=invloop2] container.7
 item replace entity @s hotbar.8 from entity @e[limit=1,tag=matched,tag=invloop2] container.8
 
+item replace entity @s armor.head from entity @e[limit=1,tag=matched,tag=invloop2] container.9
+item replace entity @s armor.chest from entity @e[limit=1,tag=matched,tag=invloop2] container.10
+item replace entity @s armor.legs from entity @e[limit=1,tag=matched,tag=invloop2] container.11
+item replace entity @s armor.feet from entity @e[limit=1,tag=matched,tag=invloop2] container.12
+item replace entity @s weapon.offhand from entity @e[limit=1,tag=matched,tag=invloop2] container.13
+
 tag @s remove restore

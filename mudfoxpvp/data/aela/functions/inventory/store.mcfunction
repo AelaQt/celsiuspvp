@@ -35,4 +35,10 @@ item replace entity @e[type=chest_minecart,tag=matched,tag=invloop2] container.6
 item replace entity @e[type=chest_minecart,tag=matched,tag=invloop2] container.7 from entity @s hotbar.7
 item replace entity @e[type=chest_minecart,tag=matched,tag=invloop2] container.8 from entity @s hotbar.8
 
+item replace entity @e[type=chest_minecart,tag=matched,tag=invloop2] container.9 from entity @s armor.head
+item replace entity @e[type=chest_minecart,tag=matched,tag=invloop2] container.10 from entity @s armor.chest
+item replace entity @e[type=chest_minecart,tag=matched,tag=invloop2] container.11 from entity @s armor.legs
+item replace entity @e[type=chest_minecart,tag=matched,tag=invloop2] container.12 from entity @s armor.feet
+item replace entity @e[type=chest_minecart,tag=matched,tag=invloop2] container.13 from entity @s weapon.offhand
+
 tag @s remove store
