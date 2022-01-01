@@ -186,10 +186,10 @@ execute if score @s upgrade matches 629 run scoreboard players set @s cost 26214
 
 
 # crossbow
-execute if score @s upgrade matches 701 run scoreboard players set @s cost 8
-execute if score @s upgrade matches 702 run scoreboard players set @s cost 16
-execute if score @s upgrade matches 703 run scoreboard players set @s cost 32
-execute if score @s upgrade matches 704 run scoreboard players set @s cost 64
+execute if score @s upgrade matches 701 run scoreboard players set @s cost 16
+execute if score @s upgrade matches 702 run scoreboard players set @s cost 32
+execute if score @s upgrade matches 703 run scoreboard players set @s cost 64
+execute if score @s upgrade matches 704 run scoreboard players set @s cost 128
 
 # bow
 execute if score @s upgrade matches 801 run scoreboard players set @s cost 4
