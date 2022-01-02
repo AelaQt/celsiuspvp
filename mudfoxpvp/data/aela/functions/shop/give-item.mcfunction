@@ -8,7 +8,7 @@ execute if entity @s[type=player] if score @s item matches 40 run give @s shield
 execute if entity @s[type=player] unless entity @s[nbt={Inventory:[{id:"minecraft:spyglass"}]}] if score @s item matches 41 run give @s spyglass
 execute if entity @s[type=player] if score @s item matches 42 run give @s crossbow{Unbreakable:1}
 execute if entity @s[type=player] if score @s item matches 43 run give @s bow{Unbreakable:1}
-execute if entity @s[type=player] if score @s item matches 70 run give @s arrow 10
+execute if entity @s[type=player] if score @s item matches 70 run give @s arrow 16
 execute if entity @s[type=player] if score @s item matches 74 run give @s cooked_beef 4
 execute if entity @s[type=player] if score @s item matches 76 run give @s golden_apple
 

@@ -12,7 +12,7 @@ item replace entity @s container.15 with leather_boots{GUI:1,display:{Name:'{"te
 item replace entity @s container.16 with shield{GUI:1,display:{Name:'{"text":"Item cost: 5","color":"yellow","italic":false}'}}
 item replace entity @s container.17 with light_blue_stained_glass_pane{GUI:1,display:{Name:'{"text":"TBA","color":"blue","italic":false}'}}
 
-item replace entity @s container.21 with arrow{GUI:1,display:{Name:'{"text":"Item cost: 1","color":"yellow","italic":false}'}} 10
+item replace entity @s container.21 with arrow{GUI:1,display:{Name:'{"text":"Item cost: 1","color":"yellow","italic":false}'}} 16
 item replace entity @s container.22 with cooked_beef{GUI:1,display:{Name:'{"text":"Item cost: 1","color":"yellow","italic":false}'}} 4
 item replace entity @s container.23 with golden_apple{GUI:1,display:{Name:'{"text":"Item cost: 2","color":"yellow","italic":false}'}}
 item replace entity @s container.24 with light_blue_stained_glass_pane{GUI:1,display:{Name:'{"text":"TBA","color":"blue","italic":false}'}}

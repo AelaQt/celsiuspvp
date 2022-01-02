@@ -9,6 +9,6 @@ execute if score @s item matches 40 run item replace entity @s container.13 with
 execute if score @s item matches 41 run item replace entity @s container.13 with spyglass{GUI:1}
 execute if score @s item matches 42 run item replace entity @s container.13 with crossbow{GUI:1}
 execute if score @s item matches 43 run item replace entity @s container.13 with bow{GUI:1}
-execute if score @s item matches 70 run item replace entity @s container.13 with arrow{GUI:1} 10
+execute if score @s item matches 70 run item replace entity @s container.13 with arrow{GUI:1} 16
 execute if score @s item matches 74 run item replace entity @s container.13 with cooked_beef{GUI:1} 4
 execute if score @s item matches 76 run item replace entity @s container.13 with golden_apple{GUI:1}
