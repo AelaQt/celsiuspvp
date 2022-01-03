@@ -1,6 +1,2 @@
-function aela:inventory/restore_loop
-
-scoreboard players reset @s guiId
-
-tag @s remove checkMove
-tag @s remove guiopen
+tag @s add nt_restore
+tag @s add nt_close

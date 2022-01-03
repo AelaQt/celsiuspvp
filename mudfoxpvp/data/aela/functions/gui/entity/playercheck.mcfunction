@@ -6,7 +6,6 @@ function aela:inventory/entity/loop
 
 kill @e[tag=active,tag=!true]
 
-execute as @e[tag=inventory_active,tag=!true] run function aela:inventory/clear_entity
-kill @e[tag=inventory_active,tag=!true]
+execute as @e[tag=inventory_active,tag=!true] run tag @s add nt_delete
 
 tag @e remove true
