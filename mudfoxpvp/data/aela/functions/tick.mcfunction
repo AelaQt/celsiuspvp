@@ -1,3 +1,5 @@
+function aela:inventory/refresh/tick
+
 function aela:events/tick
 function aela:ranks/tick
 function aela:discord/tick
