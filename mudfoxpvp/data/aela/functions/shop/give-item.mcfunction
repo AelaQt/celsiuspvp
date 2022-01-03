@@ -11,8 +11,3 @@ execute if entity @s[type=player] if score @s item matches 43 run give @s bow{Un
 execute if entity @s[type=player] if score @s item matches 70 run give @s arrow 16
 execute if entity @s[type=player] if score @s item matches 74 run give @s cooked_beef 4
 execute if entity @s[type=player] if score @s item matches 76 run give @s golden_apple
-
-execute at @s run playsound entity.player.levelup ambient @s
-
-scoreboard players set inventory_store var 0
-function aela:inventory/store_loop
