@@ -1,5 +1,5 @@
 scoreboard players add shopId var 1
-execute if score shopId var matches 21.. run scoreboard players set shopId var 0
+execute if score shopId var > loopLimit var run scoreboard players set shopId var 0
 
 execute as @a if score @s guiId = shopId var run tag @s add shopPlayer
 execute if score @s guiId = shopId var run tag @s add shopEntity
