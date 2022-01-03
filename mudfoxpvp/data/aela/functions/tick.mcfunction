@@ -1,6 +1,3 @@
-function aela:shop/next-tick
-function aela:upgrade-gui/next-tick
-
 function aela:events/tick
 function aela:ranks/tick
 function aela:discord/tick

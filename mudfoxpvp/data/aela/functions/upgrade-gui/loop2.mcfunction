@@ -4,7 +4,7 @@ execute if score guiId var > loopLimit var run scoreboard players set guiId var 
 execute if score @s guiId = guiId var run execute as @a if score @s guiId = guiId var run tag @s add thisPlayer
 
 execute if entity @a[tag=thisPlayer] run function aela:upgrade-gui/do_stuff
-execute as @a[tag=thisPlayer] run tag @s add nt-upgrade
+execute as @a[tag=thisPlayer] run function aela:upgrade-gui/give-item
 
 tag @a remove thisPlayer
 

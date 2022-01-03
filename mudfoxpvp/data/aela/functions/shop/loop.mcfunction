@@ -5,6 +5,7 @@ execute as @a if score @s guiId = shopId var run tag @s add shopPlayer
 execute if score @s guiId = shopId var run tag @s add shopEntity
 
 execute as @a[tag=shopPlayer] if entity @e[tag=shopEntity] run function aela:shop/do_thing
+execute as @a[tag=shopPlayer] if entity @e[tag=shopEntity] run function aela:shop/give-item
 
 tag @a remove shopPlayer
 tag @e remove shopEntity
