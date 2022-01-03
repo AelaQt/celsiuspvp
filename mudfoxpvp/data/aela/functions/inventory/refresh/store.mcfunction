@@ -39,3 +39,5 @@ item replace entity @e[tag=refresh2] container.10 from entity @s armor.chest
 item replace entity @e[tag=refresh2] container.11 from entity @s armor.legs
 item replace entity @e[tag=refresh2] container.12 from entity @s armor.feet
 item replace entity @e[tag=refresh2] container.13 from entity @s weapon.offhand
+
+say store
