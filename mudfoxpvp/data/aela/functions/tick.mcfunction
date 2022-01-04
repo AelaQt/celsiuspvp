@@ -2,6 +2,7 @@ function aela:events/tick
 function aela:ranks/tick
 function aela:discord/tick
 function aela:balance/tick
+function aela:powerplay/tick
 
 function aela:gui/tick
 

@@ -32,5 +32,7 @@ execute unless score set_prefix var matches 1 run scoreboard players set set_pre
 
 scoreboard players set loopLimit var 35
 
+scoreboard players set powerplay var 1
+
 function aela:spawn/load
 function aela:ranks/load
