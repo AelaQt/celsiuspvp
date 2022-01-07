@@ -5,10 +5,10 @@ item replace entity @s container.6 with bow{GUI:1,display:{Name:'{"text":"Item c
 item replace entity @s container.7 with spyglass{GUI:1,display:{Name:'{"text":"Item cost: 0","color":"yellow","italic":false}'}}
 item replace entity @s container.8 with light_blue_stained_glass_pane{GUI:1,display:{Name:'{"text":"TBA","color":"blue","italic":false}'}}
 
-item replace entity @s container.12 with leather_helmet{GUI:1,display:{Name:'{"text":"Item cost: 1","color":"yellow","italic":false}'},AttributeModifiers:[{AttributeName:"minecraft:generic.armor",Amount:0}]}
-item replace entity @s container.13 with leather_chestplate{GUI:1,display:{Name:'{"text":"Item cost: 1","color":"yellow","italic":false}'},AttributeModifiers:[{AttributeName:"minecraft:generic.armor",Amount:0}]}
-item replace entity @s container.14 with leather_leggings{GUI:1,display:{Name:'{"text":"Item cost: 1","color":"yellow","italic":false}'},AttributeModifiers:[{AttributeName:"minecraft:generic.armor",Amount:0}]}
-item replace entity @s container.15 with leather_boots{GUI:1,display:{Name:'{"text":"Item cost: 1","color":"yellow","italic":false}'},AttributeModifiers:[{AttributeName:"minecraft:generic.armor",Amount:0}]}
+item replace entity @s container.12 with leather_helmet{GUI:1,display:{Name:'{"text":"Item cost: 0","color":"yellow","italic":false}'},AttributeModifiers:[{AttributeName:"minecraft:generic.armor",Amount:0}]}
+item replace entity @s container.13 with leather_chestplate{GUI:1,display:{Name:'{"text":"Item cost: 0","color":"yellow","italic":false}'},AttributeModifiers:[{AttributeName:"minecraft:generic.armor",Amount:0}]}
+item replace entity @s container.14 with leather_leggings{GUI:1,display:{Name:'{"text":"Item cost: 0","color":"yellow","italic":false}'},AttributeModifiers:[{AttributeName:"minecraft:generic.armor",Amount:0}]}
+item replace entity @s container.15 with leather_boots{GUI:1,display:{Name:'{"text":"Item cost: 0","color":"yellow","italic":false}'},AttributeModifiers:[{AttributeName:"minecraft:generic.armor",Amount:0}]}
 item replace entity @s container.16 with shield{GUI:1,display:{Name:'{"text":"Item cost: 5","color":"yellow","italic":false}'}}
 item replace entity @s container.17 with light_blue_stained_glass_pane{GUI:1,display:{Name:'{"text":"TBA","color":"blue","italic":false}'}}
 

@@ -1,6 +1,6 @@
-tellraw @s [{"color":"aqua","text":"Version: "},{"color":"dark_blue","text":"y22m01d05h19b1"}]
+tellraw @s [{"color":"aqua","text":"Version: "},{"color":"dark_blue","text":"y22m01d07h02b1"}]
 
 # time is utc time
-# version number = y$$m$$d$$h$$(b$)
+# version number = y$$m$$d$$h$$b$
 # $ = value
-# b = update number, >1
+# b = hourly build number
