@@ -14,3 +14,5 @@ item replace entity @s armor.legs with leather_leggings{Unbreakable:1,Free:1}
 item replace entity @s armor.feet with leather_boots{Unbreakable:1,Free:1}
 
 scoreboard players set @s bal 0
+
+gamemode adventure @s
