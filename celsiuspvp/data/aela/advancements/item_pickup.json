@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Advancement"
+        },
+        "description": {
+            "text": "Description"
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:thrown_item_picked_up_by_entity"
+      }
+    },
+    "rewards": {
+        "function": "aela:advancements/item_pickup"
+    }
+}
