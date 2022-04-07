@@ -1,0 +1,2 @@
+execute if score @s cost > @s bal run item replace entity @s container.13 with red_stained_glass_pane{GUI:1,display:{Name:'{"text":"You can not afford this multiplier","color":"red","italic":false}'}}
+execute if score @s cost <= @s bal run item replace entity @s container.13 with lime_stained_glass_pane{GUI:1,display:{Name:'{"text":"Click to purchase multiplier","color":"green","italic":false}'}}

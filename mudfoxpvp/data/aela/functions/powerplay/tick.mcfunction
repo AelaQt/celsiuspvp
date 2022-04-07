@@ -11,7 +11,7 @@ execute as @a if score @s streak matches 5.. run scoreboard players reset @s str
 tag @a remove bounty
 execute as @a if score @s bounty matches 1.. run tag @s add bounty
 
-execute as @a[tag=myBounty] run scoreboard players operation @s bal += @a[tag=thisBounty] bounty
+execute as @a[tag=myBounty] run scoreboard players operation @s bountyMath = @a[tag=thisBounty] bounty
 tag @a remove myBounty
 
 effect give @e[tag=bounty] glowing 10 1 true

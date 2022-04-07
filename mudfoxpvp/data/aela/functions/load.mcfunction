@@ -1,10 +1,15 @@
 scoreboard objectives add bal dummy
+scoreboard objectives add balDot dummy
+scoreboard objectives add balMath dummy
+scoreboard objectives add bountyMath dummy
+scoreboard objectives add coinMath dummy
 scoreboard objectives add item dummy
 scoreboard objectives add level dummy
 scoreboard objectives add cost dummy
 scoreboard objectives add upgrade dummy
 scoreboard objectives add verify dummy
 scoreboard objectives add message dummy
+scoreboard objectives add multiplier dummy
 scoreboard objectives add leave minecraft.custom:minecraft.leave_game
 scoreboard objectives add playerKills playerKillCount
 scoreboard objectives add kills totalKillCount
@@ -32,6 +37,9 @@ scoreboard objectives add bounty dummy
 scoreboard objectives add death deathCount
 
 scoreboard players set -1 var -1
+
+scoreboard players set 10 var 10
+
 execute unless score set_prefix var matches 1 run scoreboard players set set_prefix var 0
 
 scoreboard players set loopLimit var 35

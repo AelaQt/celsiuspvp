@@ -57,6 +57,7 @@
         "minecraft:bread",
         "minecraft:cooked_beef",
         "minecraft:golden_carrot",
-        "minecraft:golden_apple"
+        "minecraft:golden_apple",
+        "minecraft:gold_block"
     ]
 }

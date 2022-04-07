@@ -1,0 +1,2 @@
+execute if entity @s[tag=noBack] run item replace entity @s container.10 with purple_stained_glass_pane{GUI:1,display:{Name:'{"text":"Remove item first to go back","color":"red","italic":false}'}}
+execute unless entity @s[tag=noBack] run item replace entity @s container.10 with red_stained_glass_pane{GUI:1,display:{Name:'{"text":"Go back","color":"red","italic":false}'}}
