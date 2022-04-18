@@ -1,13 +1,2 @@
 Installing the data pack:
-  move mudfoxpvp.zip to world/datapacks/
-
-Resource pack to make minecarts invisible (optional):
-  For client:
-  move resources.zip to world/
-
-  Server installation: add this to server.properties
-
-resource-pack=https://aela.fi/resources.zip
-resource-pack-sha1=2635542bb292762b0180e16e78fe35444e6a0fa3
-
-test change
+  move celsiuspvp.zip to world/datapacks/

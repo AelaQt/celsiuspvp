@@ -1,5 +1,5 @@
-rm mudfoxpvp.zip
-cd mudfoxpvp
-zip -r mudfoxpvp.zip data/ pack.mcmeta
+rm celsiuspvp.zip
+cd celsiuspvp
+zip -r celsiuspvp.zip data/ pack.mcmeta
 cd ..
-mv mudfoxpvp/mudfoxpvp.zip mudfoxpvp.zip
+mv celsiuspvp/celsiuspvp.zip celsiuspvp.zip
