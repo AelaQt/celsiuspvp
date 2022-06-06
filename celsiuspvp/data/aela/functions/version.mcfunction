@@ -1,4 +1,4 @@
-tellraw @s [{"color":"aqua","text":"Version: "},{"color":"dark_blue","text":"y22m06d05h19b2"}]
+tellraw @s [{"color":"aqua","text":"Version: "},{"color":"dark_blue","text":"y22m06d06h19b1"}]
 
 # time is utc time
 # version number = y$$m$$d$$h$$b$

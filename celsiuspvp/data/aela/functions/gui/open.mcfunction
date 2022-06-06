@@ -1,5 +1,7 @@
 advancement revoke @s only aela:open_shop
 
+function aela:inventory/restore_loop
+
 tag @s remove checkMove
 scoreboard players reset @s guiId
 function aela:gui/entity/playercheck
