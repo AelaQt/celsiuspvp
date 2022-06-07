@@ -1,12 +1,12 @@
-scoreboard players add balId var 1
-execute if score balId var > loopLimit var run scoreboard players set balId var 0
+scoreboard players add tmp var 1
+execute if score tmp var > loopLimit var run scoreboard players set tmp var 0
 
-execute as @a if score @s guiId = balId var run tag @s add balPlayer
-execute if score @s guiId = balId var run tag @s add balEntity
+execute as @a if score @s guiId = tmp var run tag @s add balPlayer
+execute if score @s guiId = tmp var run tag @s add balEntity
 
 execute as @e[tag=balEntity] if entity @a[tag=balPlayer] run scoreboard players operation @s bal = @a[tag=balPlayer,limit=1] bal
 
 tag @a remove balPlayer
 tag @e remove balEntity
 
-execute if score balId var matches 1.. run function aela:shop/loop2
+execute if score tmp var matches 1.. run function aela:shop/loop2

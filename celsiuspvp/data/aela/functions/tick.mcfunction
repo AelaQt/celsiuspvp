@@ -13,3 +13,7 @@ function aela:movement/tick
 bossbar set minecraft:0 players @a
 
 execute as @a[team=!builder,team=!spawn_builder,team=!developer,team=!spawn_developer] unless entity @s[gamemode=spectator] unless entity @s[gamemode=adventure] run gamemode adventure @s
+
+tag @e remove tmp
+scoreboard players reset tmp var
+scoreboard players reset @a upgrade

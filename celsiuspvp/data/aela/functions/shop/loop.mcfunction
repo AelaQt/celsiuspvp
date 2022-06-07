@@ -1,13 +1,13 @@
-scoreboard players add shopId var 1
-execute if score shopId var > loopLimit var run scoreboard players set shopId var 0
+scoreboard players operation tmp var = @s guiId
 
-execute as @a if score @s guiId = shopId var run tag @s add shopPlayer
-execute if score @s guiId = shopId var run tag @s add shopEntity
+execute as @a if score @s guiId = tmp var run tag @s add tmp
 
-execute as @a[tag=shopPlayer] if entity @e[tag=shopEntity] run function aela:shop/do_thing
-execute as @a[tag=shopPlayer] if entity @e[tag=shopEntity] run function aela:shop/give-item
+tag @s add shopEntity
 
-tag @a remove shopPlayer
-tag @e remove shopEntity
+execute as @a[tag=tmp] run function aela:shop/do_thing
+execute as @a[tag=tmp] run function aela:shop/give-item
 
-execute if score shopId var matches 1.. run function aela:shop/loop
+tag @s remove shopEntity
+tag @a remove tmp
+
+scoreboard players reset tmp var

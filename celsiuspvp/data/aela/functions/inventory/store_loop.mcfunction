@@ -1,9 +1,9 @@
-scoreboard players add inventory_store var 1
-execute if score inventory_store var > loopLimit var run scoreboard players set inventory_store var 0
+scoreboard players operation tmp var = @s guiId
+execute if score tmp var > loopLimit var run scoreboard players set tmp var 0
 
-execute if score @s guiId = inventory_store var run execute as @e[tag=inventory_active] if score @s inventory = inventory_store var run tag @s add matched
-execute if score @s guiId = inventory_store var if entity @e[tag=matched] run function aela:inventory/store
+execute as @e[tag=inventory_active] if score @s inventory = tmp var run tag @s add tmp
+execute if entity @e[tag=tmp] run function aela:inventory/store
 
-tag @e remove matched
+tag @e remove tmp
 
-execute if score inventory_store var matches 1.. run function aela:inventory/store_loop
+scoreboard players reset tmp var

@@ -1,2 +1,2 @@
-scoreboard players operation @a[tag=thisPlayer] upgrade = @s upgrade
-scoreboard players reset @a[tag=thisPlayer] bal
+scoreboard players operation @a[tag=tmp] upgrade = @s upgrade
+scoreboard players reset @a[tag=tmp] bal
