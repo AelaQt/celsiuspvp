@@ -4,7 +4,7 @@ execute if entity @s[type=player] unless entity @s[nbt={Inventory:[{id:"minecraf
 execute if entity @s[type=player] unless entity @s[nbt={Inventory:[{id:"minecraft:leather_leggings",tag:{Free:1}}]}] if score @s item matches 19 run give @s leather_leggings{Unbreakable:1,Free:1}
 execute if entity @s[type=player] unless entity @s[nbt={Inventory:[{id:"minecraft:leather_boots",tag:{Free:1}}]}] if score @s item matches 25 run give @s leather_boots{Unbreakable:1,Free:1}
 execute if entity @s[type=player] if score @s item matches 31 run give @s wooden_axe{Unbreakable:1}
-execute if entity @s[type=player] if score @s item matches 40 run give @s shield{Unbreakable:1}
+execute if entity @s[type=player] if score @s item matches 40 run give @s shield
 execute if entity @s[type=player] unless entity @s[nbt={Inventory:[{id:"minecraft:spyglass"}]}] if score @s item matches 41 run give @s spyglass
 execute if entity @s[type=player] if score @s item matches 42 run give @s crossbow{Unbreakable:1}
 execute if entity @s[type=player] if score @s item matches 43 run give @s bow{Unbreakable:1}
