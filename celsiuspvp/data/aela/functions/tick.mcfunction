@@ -19,3 +19,4 @@ scoreboard players reset tmp var
 scoreboard players reset @a upgrade
 
 execute as @a if entity @s[nbt={SelectedItem:{id:"minecraft:shield",tag:{Unbreakable:1b}}}] run item replace entity @s weapon.mainhand with shield{Unbreakable:0b}
+execute as @a if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield",tag:{Unbreakable:1b}}]}] run item replace entity @s weapon.offhand with shield{Unbreakable:0b}
