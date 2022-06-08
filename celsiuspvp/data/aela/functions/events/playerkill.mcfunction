@@ -5,3 +5,5 @@ scoreboard players reset @s playerKills
 scoreboard players add @s streak 1
 
 function aela:balance/killcoin
+
+execute at @s run playsound block.amethyst_block.place block @s
