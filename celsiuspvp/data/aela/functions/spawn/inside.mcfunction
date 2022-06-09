@@ -6,3 +6,7 @@ execute if entity @s[team=builder] run team join spawn_builder @s
 execute if entity @s[team=developer] run team join spawn_developer @s
 execute if entity @s[team=moderator] run team join spawn_moderator @s
 execute if entity @s[team=default] run team join spawn_default @s
+
+execute if entity @s[team=vip] run team join spawn_vip @s
+execute if entity @s[team=mvp] run team join spawn_mvp @s
+execute if entity @s[team=simp] run team join spawn_simp @s

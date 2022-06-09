@@ -1,1 +1,1 @@
-execute as @a[team=!builder,team=!developer,team=!moderator,team=!default,team=!spawn_builder,team=!spawn_developer,team=!spawn_moderator,team=!spawn_default] run team join default @s
+execute as @a[team=!builder,team=!developer,team=!moderator,team=!default,team=!spawn_builder,team=!spawn_developer,team=!spawn_moderator,team=!spawn_default,team=!vip,team=!mvp,team=!simp,team=!spawn_vip,team=!spawn_mvp,team=!spawn_simp] run team join default @s
