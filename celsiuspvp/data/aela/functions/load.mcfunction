@@ -38,7 +38,9 @@ scoreboard objectives add death deathCount
 
 scoreboard players set -1 var -1
 
+scoreboard players set 2 var 2
 scoreboard players set 10 var 10
+scoreboard players set 100 var 100
 
 execute unless score set_prefix var matches 1 run scoreboard players set set_prefix var 0
 
