@@ -36,6 +36,12 @@ scoreboard objectives add streak dummy
 scoreboard objectives add bounty dummy
 scoreboard objectives add death deathCount
 
+scoreboard objectives add path dummy
+scoreboard objectives add season dummy
+
+scoreboard objectives add totalDeaths deathCount
+scoreboard objectives add totalKills playerKillCount
+
 scoreboard players set -1 var -1
 
 scoreboard players set 2 var 2

@@ -3,6 +3,8 @@ scoreboard players set @s level 0
 scoreboard players set @s upgrade -1
 scoreboard players set @s cost -1
 
+function aela:upgrade-gui/path
+
 
 
 execute if score @s item matches -1 if entity @s[nbt={Items:[{Slot:12b,id:"minecraft:wooden_sword"}]}] run scoreboard players set @s item 1

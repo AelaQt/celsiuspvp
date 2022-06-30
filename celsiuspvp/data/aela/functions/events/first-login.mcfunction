@@ -2,6 +2,8 @@ scoreboard players set @s leave 1
 
 # Commands here will be run once as the player that joins for the first time
 
+scoreboard players operation @s season = season var
+
 clear @s
 
 tellraw @s ["",{"text":"Welcome to CelsiusPvP, ","color":"yellow"},{"selector":"@s","color":"white"}]
